@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Prabhat Chocolate Shop</title>
+    <link rel="stylesheet" href="second.css">
+</head>
+
+<body>
+    <script src="third.js"></script>
+    <h1>Chocolate Shop</h1>
+
+    <div id="cart">
+        <h2>Shopping Cart</h2>
+        <ul id="cart-items">
+            <!-- Cart items will be displayed here -->
+        </ul>
+        <p id="selected-price">Selected Price: $0.00</p>
+    </div>
+
+    <div class="chocolate-item" id="chocolate-1">
+        <h2>Chocolate 1</h2>
+        <p>Description: Delicious chocolate</p>
+        <p>Price: $5.00</p>
+        <button onclick="addToCart(1, 5.00)">Add to Cart</button>
+        <button onclick="removeFromCart(1)" class="remove">Remove</button>
+    </div>
+    <div class="chocolate-item" id="chocolate-2">
+        <h2>Chocolate 2</h2>
+        <p>Description: Creamy milk chocolate</p>
+        <p>Price: $4.50</p>
+        <button onclick="addToCart(2, 4.50)">Add to Cart</button>
+        <button onclick="removeFromCart(2)" class="remove">Remove</button>
+    </div>
+
+    <div class="chocolate-item" id="chocolate-3">
+        <h2>Chocolate 3</h2>
+        <p>Description: Dark chocolate delight</p>
+        <p>Price: $6.00</p>
+        <button onclick="addToCart(3, 6.00)">Add to Cart</button>
+        <button onclick="removeFromCart(3)" class="remove">Remove</button>
+    </div>
+
+    <div class="chocolate-item" id="chocolate-4">
+        <h2>Chocolate 4</h2>
+        <p>Description: Chocolate with nuts</p>
+        <p>Price: $7.00</p>
+        <button onclick="addToCart(4, 7.00)">Add to Cart</button>
+        <button onclick="removeFromCart(4)" class="remove">Remove</button>
+    </div>
+
+    <div class="chocolate-item" id="chocolate-5">
+        <h2>Chocolate 5</h2>
+        <p>Description: White chocolate</p>
+        <p>Price: $5.50</p>
+        <button onclick="addToCart(5, 5.50)">Add to Cart</button>
+        <button onclick="removeFromCart(5)" class="remove">Remove</button>
+    </div>
+
+    <div class="chocolate-item" id="chocolate-6">
+        <h2>Chocolate 6</h2>
+        <p>Description: Caramel-filled chocolate</p>
+        <p>Price: $8.00</p>
+        <button onclick="addToCart(6, 8.00)">Add to Cart</button>
+        <button onclick="removeFromCart(6)" class="remove">Remove</button>
+    </div>
+
+</body>
+</html>
